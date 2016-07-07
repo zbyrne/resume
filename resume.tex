@@ -1,0 +1,122 @@
+\documentclass[10pt]{article}
+
+\usepackage{graphicx}
+\usepackage[nohead,nofoot,left=1in,right=1in,top=0.75in,bottom=0.75in]{geometry}
+
+\begin{document}
+
+\newenvironment{mitemize}{
+\begin{itemize}
+  \setlength{\topsep}{0pt}
+  \setlength{\itemsep}{1pt}
+  \setlength{\parskip}{0pt}
+  \setlength{\parsep}{0pt}}{\end{itemize}
+}
+\setlength{\parskip}{0pt}
+\setlength{\topskip}{0pt}
+\pagestyle{empty}
+
+\noindent {\bf \Huge Zachary Byrne \hspace{0.1cm}}{\Large BSc, EIT} \vspace{0.2cm}\\
+Phone: \#REDACTED\# \hspace{1.5cm} Email: zacharyabyrne@gmail.com
+\hspace{1.5cm} Github: github.com/zbyrne
+
+\section*{Education}
+\begin{description}
+  \item [BSc] Computer Engineering (Traditional), \emph{University of Alberta} (Sept 2004 - May 2010)\\
+\end{description}
+
+\section*{Work Experience}
+\noindent {\bf EMC Corporation} \hspace{0.5in} Edmonton, AB \hspace{0.5in} Nov 2015 - Present\\
+\emph{Software Engineer}
+\begin{mitemize}
+  \item Worked in a small team to design and develop a new distributed
+    cloud service product in Go.
+  \item Applied RAFT consensus algorithm to implement replicated data
+    structures and distributed locking.
+  \item Used Docker to implement an integration testing environment in Python.
+  \item Acted as team Scrum Master on a rotating basis.
+\end{mitemize}
+
+\noindent {\bf EMC Corporation} \hspace{0.5in} Edmonton, AB \hspace{0.5in} Apr 2012 - Oct 2015\\
+\emph{Associate Software Engineer}
+\begin{mitemize}
+  \item Developed and maintained an integration testing system for the
+    VPlex virtual storage controller in Python.
+  \item Developed several server-client and peer-to-peer applications
+    using REST and RPC interfaces.
+  \item Migrated many components of the testing system to run in
+    Docker.
+  \item Reported and analysed bugs found by the testing system in both
+    the VPlex firmware in C/C++ and the VPlex CLI in Java.
+  \item Automated the building, distribution, and testing of VPlex's
+    non-disruptive-upgrade package.
+  \item Interviewed, selected, and mentored interns from the
+    University of Alberta Engineering and Computer Science departments
+    each year.
+  \item Participated in code reviews focusing on style and
+    architecture as well as promoting clean commit history and
+    informative commit messages.
+\end{mitemize}
+
+\noindent {\bf Diesel Tech Industries} \hspace{0.5in} Edmonton, AB \hspace{0.5in} Feb 2011 - Mar 2012\\
+\emph{Configuration Software/Firmware Developer}
+\begin{mitemize}
+  \item Developed electronics and software for a positive air shutoff
+    system for diesel equipment in the oil and gas industry.
+  \item Developed firmware for embedded control unit on NXP ARM 7
+    microcontroller in C and assembly, including drivers for electric
+    motors with feedback, RS232, pixel addressable LCD displays, CAN
+    Bus, I2C, and USB CDC
+  \item Designed gain-control circuit and developed firmware for
+    tachometer board using magnetic flux from engine
+    alternator. Presented engine speed to main controller over I2C.
+  \item Developed Windows .Net application in Visual C++ for
+    configuring and troubleshooting embedded controller over serial
+    connection via USB, RS232, or WiFi.
+\end{mitemize}
+
+\newpage
+
+\section*{Skills}
+\begin{description}
+  \item [\emph{Programming Languages}] Proficient in C, Python,
+    Go. Familiar with C++, Java, C\#.
+  \item [\emph{Scripting Languages}] Bash, Sed, Awk, Make.
+  \item [\emph{Version Control}] Git.
+  \item [\emph{Systems}] Linux, Docker.
+  \item [\emph{Markup Languages}] \LaTeX, Markdown, HTML.
+  \item [\emph{Text Editors}] Emacs.
+  \item [\emph{IDEs}] Eclipse, Visual Studio, IAR Embedded Workbench.
+\end{description}
+
+\section*{Hobbies}
+\subsection*{Programming}
+  \begin{mitemize}
+    \item Member of a programming club with coworkers working on
+      problems from Google Code Jam, ACM competitions, and Matasano
+      Cryptopals cryptography breaking challenges.
+    \item See github.com/zbyrne for projects including solutions to
+      Cryptopals set 1 in C++ and a Z80 emulator in both Go and
+      Python.
+    \item Contributer to the Python Standard Library.
+  \end{mitemize}
+\subsection*{Gaming}
+  \begin{mitemize}
+    \item Builds gaming PCs for personal use.
+    \item Enjoys PC and tabletop role playing games, dungeon crawlers,
+     and puzzle games.
+  \end{mitemize}
+\subsection*{Music}
+  \begin{mitemize}
+    \item Plays bass guitar.
+    \item Plays banjo.
+  \end{mitemize}
+\subsection*{Brewing}
+  \begin{mitemize}
+    \item Brews all-grain beer of various styles.
+  \end{mitemize}
+
+\vspace{0.25in}
+{\bf \centering REFERENCES AVAILABLE UPON REQUEST \par}
+
+\end{document}
